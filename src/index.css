@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&family=Roboto:wght@400;500;700;900&display=swap');
+
+:root {
+	--font-fomily: 'Roboto', sans-serif;
+	--primary: rgb(23, 23, 65);
+	--border: rgb(197, 197, 197);
+	--black: #000;
+	--white: #fff;
+	--red: #f72828;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: var(--font-fomily);
+	background-color: var(--primary);
+}
